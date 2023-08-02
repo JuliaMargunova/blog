@@ -1,3 +1,4 @@
 export function someFn (){
-    console.log('test function')
+    console.log('test functionbvbbb')
+    return ''
 }
