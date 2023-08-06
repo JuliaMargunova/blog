@@ -5,6 +5,7 @@ import {classNames} from "helpers/classNames/classNames";
 import {AboutPageAsync} from "pages/AboutPage/AboutPage.async";
 import {MainPageAsync} from "pages/MainPage/MainPage.async";
 import "./styles/index.scss"
+import {AppRouter} from "app/providers/router";
 
 
 export const App = () => {
@@ -14,7 +15,7 @@ export const App = () => {
         <div className={classNames('app', {}, [theme])}>
             <Link to={'/'}>Главная</Link>
             <Link to={'/about'}>О сайте</Link>
-
+            <AppRouter/>
             hello
         </div>
     </>
