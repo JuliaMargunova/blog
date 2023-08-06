@@ -14,10 +14,7 @@ export const App = () => {
         <div className={classNames('app', {}, [theme])}>
             <Link to={'/'}>Главная</Link>
             <Link to={'/about'}>О сайте</Link>
-            <Suspense fallback={<div>Loading.....</div>}><Routes>
-                <Route path={'/about'} element={<AboutPageAsync/>}/>
-                <Route path={'/'} element={<MainPageAsync/>}/>
-            </Routes> </Suspense>
+
             hello
         </div>
     </>
