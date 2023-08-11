@@ -5,9 +5,8 @@ import { AppRouter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Sidebar } from 'widgets/Sidebar';
-import { useTranslation } from 'react-i18next';
 
-export const App = () => {
+function App() {
     const { theme } = useTheme();
 
     return (
@@ -21,4 +20,6 @@ export const App = () => {
             </Suspense>
         </div>
     );
-};
+}
+
+export default App;
