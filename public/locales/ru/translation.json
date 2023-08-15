@@ -11,5 +11,7 @@
     " Accusamus accusantium aliquid atque deserunt harum libero nemo nostrum, perspiciatis quis sunt": {
       "": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquid atque deserunt harum libero nemo nostrum, perspiciatis quis sunt."
     }
-  }
+  },
+  "increment": "increment",
+  "decrement": "decrement"
 }
