@@ -1,6 +1,5 @@
 import React, { type ButtonHTMLAttributes, type FC } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { trueFn } from 'mini-css-extract-plugin/types/utils';
 import cls from './Button.module.scss';
 
 export enum ButtonTheme {

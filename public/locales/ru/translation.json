@@ -6,5 +6,10 @@
   "Обновить страницу": "Обновить страницу",
   "Страница не найдена": "Страница не найдена",
   "переключатель": "переключатель",
-  "Короткий язык": "ru"
+  "Короткий язык": "ru",
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Accusamus accusantium aliquid atque deserunt harum libero nemo nostrum, perspiciatis quis sunt": {
+      "": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquid atque deserunt harum libero nemo nostrum, perspiciatis quis sunt."
+    }
+  }
 }
