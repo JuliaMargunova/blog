@@ -1,19 +1,23 @@
 {
-  "перевод": "translate",
-  "пример": "example",
+  "Тестовый пример": "Test example",
+  "Перевод": "Translate",
+  "Главная страница": "Main page",
   "Язык": "English",
-  "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
-  "Обновить страницу": "Update page",
+  "новый перевод": "новый перевод",
   "Страница не найдена": "Page not found",
-  "переключатель": "переключатель",
-  "Короткий язык": "en",
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
-    " Accusamus accusantium aliquid atque deserunt harum libero nemo nostrum, perspiciatis quis sunt": {
-      "": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquid atque deserunt harum libero nemo nostrum, perspiciatis quis sunt."
-    }
-  },
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+  "Обновить страницу": "Reload page",
+  "throw error": "throw error",
+  "Главная": "Main",
+  "О сайте": "About us",
+  "Переключить": "Переключить",
+  "Короткий язык": "En",
+  "Войти": "Login",
   "increment": "increment",
   "decrement": "decrement",
-  "Введите username": "Введите username",
-  "Введите пароль": "Введите пароль"
+  "Введите username": "Enter username",
+  "Введите пароль": "Enter password",
+  "Форма авторизации": "Auth form",
+  "Вы ввели неверный логин или пароль": "Uncorrect username or password",
+  "Выйти": "Выйти"
 }
