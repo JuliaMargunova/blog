@@ -13,6 +13,7 @@ import { Icon } from 'shared/ui/Icon/Icon';
 import { ArticleCodeBlockComponent } from 'entities/Article/ui/ArticleCodeBlockComponent/ArticleCodeBlockComponent';
 import { ArticleImageBlockComponent } from 'entities/Article/ui/ArticleImageBlockComponent/ArticleImageBlockComponent';
 import { ArticleTextBlockComponent } from 'entities/Article/ui/ArticleTextBlockComponent/ArticleTextBlockComponent';
+import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { ArticleBlock, ArticleBlockType } from '../../model/types/article';
 import { fetchArticleById } from '../../model/services/fetchArticleById';
 import {
@@ -69,11 +70,10 @@ export const ArticleDetails = memo((props: ArticleDetailsProps) => {
         default: return null;
         }
     }, []);
-    useEffect(() => {
-        if (__PROJECT__ !== 'storybook') {
-            dispatch(fetchArticleById(id));
-        }
-    }, [dispatch, id]);
+    useInitialEffect(() => {
+        dispatch(fetchArticleById(id));
+    });
+
     let content;
     if (isLoading) {
         content = (
