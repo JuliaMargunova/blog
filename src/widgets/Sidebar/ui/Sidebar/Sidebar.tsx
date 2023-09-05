@@ -1,11 +1,11 @@
-import {classNames} from 'shared/lib/classNames/classNames';
-import {memo, useMemo, useState} from 'react';
-import {ThemeSwitcher} from 'shared/ui/ThemeSwitcher';
-import {LangSwitcher} from 'shared/ui/LangSwitcher/LangSwitcher';
-import {Button, ButtonSize, ButtonTheme} from 'shared/ui/Button/Button';
+import { classNames } from 'shared/lib/classNames/classNames';
+import { memo, useMemo, useState } from 'react';
+import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
+import { LangSwitcher } from 'shared/ui/LangSwitcher/LangSwitcher';
+import { Button, ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
 import cls from './Sidebar.module.scss';
-import {SidebarItemsList} from '../../model/items';
-import {SidebarItem} from '../SidebarItem/SidebarItem';
+import { SidebarItemsList } from '../../model/items';
+import { SidebarItem } from '../SidebarItem/SidebarItem';
 
 interface SidebarProps {
     className?: string;
@@ -37,7 +37,6 @@ export const Sidebar = memo(({ className }: SidebarProps) => {
                 className={cls.collapseBtn}
                 theme={ButtonTheme.BACKGROUND_INVERTED}
                 size={ButtonSize.L}
-                square
             >
                 {collapsed ? '>' : '<'}
             </Button>
