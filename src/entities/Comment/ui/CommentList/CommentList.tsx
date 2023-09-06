@@ -1,9 +1,9 @@
-import React from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { useTranslation } from 'react-i18next';
+import { memo } from 'react';
 import { Text } from 'shared/ui/Text/Text';
-import { CommentCard } from '../CommentCard/CommentCard';
+import { useTranslation } from 'react-i18next';
 import cls from './CommentList.module.scss';
+import { CommentCard } from '../CommentCard/CommentCard';
 import { Comment } from '../../model/types/comment';
 
 interface CommentListProps {
@@ -12,9 +12,20 @@ interface CommentListProps {
     isLoading?: boolean;
 }
 
-export const CommentList = (props: CommentListProps) => {
+export const CommentList = memo((props: CommentListProps) => {
     const { className, isLoading, comments } = props;
     const { t } = useTranslation();
+
+    if (isLoading) {
+        return (
+            <div className={classNames(cls.CommentList, {}, [className])}>
+                <CommentCard isLoading />
+                <CommentCard isLoading />
+                <CommentCard isLoading />
+            </div>
+        );
+    }
+
     return (
         <div className={classNames(cls.CommentList, {}, [className])}>
             {comments?.length
@@ -28,4 +39,4 @@ export const CommentList = (props: CommentListProps) => {
                 : <Text text={t('Комментарии отсутствуют')} />}
         </div>
     );
-};
+});
