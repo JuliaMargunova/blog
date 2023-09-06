@@ -118,7 +118,9 @@
       "avatar": "https://media.licdn.com/dms/image/D4D03AQE_6lePj8MqQw/profile-displayphoto-shrink_800_800/0/1678708691925?e=2147483647&v=beta&t=wvSz9s7qutzmi-4F69QWoPVLhgxLBeVS6AJAqCB1JuM"
     }
   ],
-  "profile": {
+  "profile": [
+    {
+      "id": "1",
     "first": "Julia",
     "lastname": "Margunova",
     "age": 30,
@@ -127,5 +129,17 @@
     "username": "admin",
     "avatar": "https://media.licdn.com/dms/image/D4D03AQE_6lePj8MqQw/profile-displayphoto-shrink_800_800/0/1678708691925?e=2147483647&v=beta&t=wvSz9s7qutzmi-4F69QWoPVLhgxLBeVS6AJAqCB1JuM",
     "country": "Belarus"
-  }
+  },
+    {
+      "id": "2",
+      "first": "Valery",
+      "lastname": "Margunov",
+      "age": 32,
+      "currency": "BIN",
+      "city": "Minsk",
+      "username": "lider112",
+      "avatar": "https://media.licdn.com/dms/image/D4D03AQE_6lePj8MqQw/profile-displayphoto-shrink_800_800/0/1678708691925?e=2147483647&v=beta&t=wvSz9s7qutzmi-4F69QWoPVLhgxLBeVS6AJAqCB1JuM",
+      "country": "Belarus"
+    }
+  ]
 }
