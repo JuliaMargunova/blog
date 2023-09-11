@@ -1,23 +1,24 @@
 import { classNames, Mods } from 'shared/lib/classNames/classNames';
 import { memo } from 'react';
-import { transform } from '@babel/core';
 import cls from './Text.module.scss';
 
 export enum TextTheme {
     PRIMARY = 'primary',
+    INVERTED = 'inverted',
     ERROR = 'error',
 }
 
 export enum TextAlign {
-    RIGHT='right',
-    LEFT='left',
-    CENTER='center',
+    RIGHT = 'right',
+    LEFT = 'left',
+    CENTER = 'center',
 }
 
 export enum TextSize {
     M = 'size_m',
     L = 'size_l',
 }
+
 interface TextProps {
     className?: string;
     title?: string;
@@ -42,6 +43,7 @@ export const Text = memo((props: TextProps) => {
         [cls[align]]: true,
         [cls[size]]: true,
     };
+
     return (
         <div className={classNames(cls.Text, mods, [className])}>
             {title && <p className={cls.title}>{title}</p>}
