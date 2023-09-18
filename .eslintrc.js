@@ -48,7 +48,7 @@ module.exports = {
             {
                 markupOnly: true,
                 ignoreAttribute: [
-                    'as', 'navigation', 'data-testid',
+                    'as', 'role', 'data-testid',
                     'to', 'target', 'align',
                     'direction', 'gap', 'justify',
                 ],
