@@ -9,6 +9,7 @@ import {
     fetchCommentsByArticleId,
 } from 'pages/ArticleDetailsPage/model/services/fetchCommentsByArticleId/fetchCommentsByArticleId';
 import { Text, TextSize } from 'shared/ui/Text/Text';
+import { VStack } from 'shared/ui/Stack';
 import { addCommentForArticle } from '../../model/services/addCommentForArticle/addCommentForArticle';
 import { getArticleCommentsIsLoading } from '../../model/selectors/comments';
 import { getArticleComments } from '../../model/slices/articleDetailsCommentsSlice';
@@ -34,7 +35,7 @@ export const ArticleDetailsComments = memo((props: ArticleDetailsCommentsProps) 
     }, [dispatch]);
 
     return (
-        <div className={classNames('', {}, [className])}>
+        <VStack gap="16" max className={classNames('', {}, [className])}>
             <Text
                 size={TextSize.L}
                 title={t('Комментарии')}
@@ -44,6 +45,6 @@ export const ArticleDetailsComments = memo((props: ArticleDetailsCommentsProps) 
                 isLoading={commentsIsLoading}
                 comments={comments}
             />
-        </div>
+        </VStack>
     );
 });
