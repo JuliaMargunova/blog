@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Page } from 'widgets/Page/Page';
-import { HStack } from 'shared/ui/Stack';
-import { MyListBox } from 'shared/ui/MyListBox/MyListBox';
-import { ListBox } from 'shared/ui/ListBox/ListBox';
 
 const MainPage = () => {
     const { t } = useTranslation();

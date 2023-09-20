@@ -18,7 +18,7 @@ export interface StateSchema {
     counter: CounterSchema;
     user: UserSchema;
     ui: UISchema;
-    [rtkApi.reducerPath]:ReturnType<typeof rtkApi.reducer>
+    [rtkApi.reducerPath]: ReturnType<typeof rtkApi.reducer>;
 
     // Асинхронные редюсеры
     loginForm?: LoginSchema;
@@ -27,7 +27,6 @@ export interface StateSchema {
     addCommentForm?: AddCommentFormSchema;
     articlesPage?: ArticlesPageSchema;
     articleDetailsPage?: ArticleDetailsPageSchema;
-
 }
 
 export type StateSchemaKey = keyof StateSchema;
