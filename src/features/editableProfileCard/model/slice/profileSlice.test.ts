@@ -1,8 +1,8 @@
-import { Country } from 'entities/Country';
-import { Currency } from 'entities/Currency';
-import { ProfileSchema } from 'features/editableProfileCard';
-import { profileActions, profileReducer } from 'features/editableProfileCard/model/slice/profileSlice';
-import { updateProfileData } from 'features/editableProfileCard/model/services/updateProfileData/updateProfileData';
+import { Country } from '@/entities/Country';
+import { Currency } from '@/entities/Currency';
+import { ProfileSchema } from '@/features/editableProfileCard';
+import { profileActions, profileReducer } from '@/features/editableProfileCard/model/slice/profileSlice';
+import { updateProfileData } from '@/features/editableProfileCard/model/services/updateProfileData/updateProfileData';
 import { ValidateProfileError } from '../../model/consts/consts';
 
 const data = {
