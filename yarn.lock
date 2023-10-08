@@ -5754,7 +5754,7 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-braces@^3.0.1, braces@~3.0.2:
+braces@^3.0.1, braces@^3.0.2, braces@~3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz"
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
@@ -7922,11 +7922,12 @@ eslint-plugin-react@^7.29.2:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
-eslint-plugin-ulbi-tv-plugin@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ulbi-tv-plugin/-/eslint-plugin-ulbi-tv-plugin-0.0.3.tgz#c8e016a45a32e368b1c03fef90df9ff9ad024483"
-  integrity sha512-2ui5LAdCBp3eQ/sNIvKXhONt5ozysVW9s6QVDgZjlszSqCYIAzyukhFx4jdOhejf0j+mbTxKQo4tI5id0SCW4g==
+eslint-plugin-ulbi-tv-plugin@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ulbi-tv-plugin/-/eslint-plugin-ulbi-tv-plugin-0.0.4.tgz#63f94d9dca93ad417816e7dc40f43f3db97a3f35"
+  integrity sha512-HUnhl2efVhg78CzYacK3J07vtWDhVAi1HVhObg39fpc/qv0HjA6fyJUqH8sT0QsUTHjdfRBn1CoLS9t6SWJrhQ==
   dependencies:
+    micromatch "^4.0.5"
     requireindex "^1.2.0"
 
 eslint-scope@5.1.1, eslint-scope@^5.1.1:
@@ -11484,6 +11485,14 @@ micromatch@^4.0.0, micromatch@^4.0.2, micromatch@^4.0.4:
   dependencies:
     braces "^3.0.1"
     picomatch "^2.2.3"
+
+micromatch@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
+  integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==
+  dependencies:
+    braces "^3.0.2"
+    picomatch "^2.3.1"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
