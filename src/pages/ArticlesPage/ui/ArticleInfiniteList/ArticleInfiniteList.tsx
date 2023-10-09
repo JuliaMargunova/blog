@@ -9,7 +9,7 @@ import {
     getArticlesPageView,
 } from '../../model/selectors/articlesPageSelectors';
 import { useAppDispatch } from '@/shared/lib/hooks/useAppDispatch/useAppDispatch';
-import { Text } from '@/shared/ui/Text/Text';
+import { Text } from '@/shared/ui/Text';
 
 interface ArticleInfiniteListProps {
     className?: string;

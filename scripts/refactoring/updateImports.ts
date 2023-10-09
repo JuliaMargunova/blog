@@ -16,6 +16,7 @@ files.forEach((sourceFile) => {
     const importDeclarations = sourceFile.getImportDeclarations();
     importDeclarations.forEach((importDeclaration) => {
         const value = importDeclaration.getModuleSpecifierValue();
+
         if (isAbsolute(value)) {
             importDeclaration.setModuleSpecifier(`@/${value}`);
         }
