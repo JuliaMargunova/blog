@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Page } from 'src/widgets/Page/ui/Page/Page';
+import { Page } from './Page';
 
 export default {
     title: 'widgets/Page',
