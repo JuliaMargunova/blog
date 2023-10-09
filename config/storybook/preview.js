@@ -15,6 +15,14 @@ export const parameters = {
             date: /Date$/,
         },
     },
+    themes: {
+        default: 'light',
+        list: [
+            { name: 'light', class: Theme.LIGHT, color: '#fdfdfd' },
+            { name: 'dark', class: Theme.DARK, color: '#23272f' },
+            { name: 'orange', class: Theme.ORANGE, color: '#65c5c2' },
+        ],
+    },
     layout: 'fullscreen',
 };
 
