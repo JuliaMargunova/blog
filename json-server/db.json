@@ -628,6 +628,15 @@
         "MANAGER"
       ],
       "avatar": "https://png.pngtree.com/png-vector/20190629/ourlarge/pngtree-business-people-avatar-icon-user-profile-free-vector-png-image_1527664.jpg"
+    },
+    {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "avatar": "https://media.licdn.com/dms/image/D4D03AQE_6lePj8MqQw/profile-displayphoto-shrink_800_800/0/1678708691925?e=2147483647&v=beta&t=wvSz9s7qutzmi-4F69QWoPVLhgxLBeVS6AJAqCB1JuM"
     }
   ],
   "profile": [
