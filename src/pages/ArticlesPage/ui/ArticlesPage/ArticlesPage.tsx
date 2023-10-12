@@ -29,7 +29,6 @@ const ArticlesPage = (props: ArticlesPageProps) => {
     const { t } = useTranslation();
     const dispatch = useAppDispatch();
     const [searchParams] = useSearchParams();
-
     useInitialEffect(() => {
         dispatch(initArticlesPage(searchParams));
     });
