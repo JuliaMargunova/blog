@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import { Listbox as HListBox } from '@headlessui/react';
 import { classNames } from '@/shared/lib/classNames/classNames';
-import { Button } from '@/shared/ui/Button';
+import { Button } from '../Button';
 import cls from './MyListBox.module.scss';
 
 interface ListBoxProps {
