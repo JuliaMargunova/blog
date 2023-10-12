@@ -26,9 +26,7 @@ export const MyListBox = ({ className }: ListBoxProps) => {
             onChange={setSelectedPerson}
         >
             <HListBox.Button className={cls.trigger}>
-                <Button>
-                    {selectedPerson.name}
-                </Button>
+                <Button>{selectedPerson.name}</Button>
             </HListBox.Button>
             <HListBox.Options className={cls.options}>
                 {people.map((person) => (
@@ -40,18 +38,14 @@ export const MyListBox = ({ className }: ListBoxProps) => {
                     >
                         {({ active, selected }) => (
                             <li
-                                className={classNames(
-                                    cls.item,
-                                    {
-                                        [cls.active]: active,
-                                    },
-                                )}
+                                className={classNames(cls.item, {
+                                    [cls.active]: active,
+                                })}
                             >
                                 {selected && '!!!'}
                                 {person.name}
                             </li>
                         )}
-
                     </HListBox.Option>
                 ))}
             </HListBox.Options>

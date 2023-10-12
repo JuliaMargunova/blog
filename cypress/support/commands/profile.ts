@@ -19,8 +19,9 @@ export const resetProfile = (profileId: string) => {
             country: 'Ukraine',
             city: 'Moscow',
             username: 'testuser',
-            avatar: 'https://png.pngtree.com/png-vector/20190629/ourlarge/pngtree-business-people-avatar-icon-user-profile'
-                + '-free-vector-png-image_1527664.jpg',
+            avatar:
+                'https://png.pngtree.com/png-vector/20190629/ourlarge/pngtree-business-people-avatar-icon-user-profile' +
+                '-free-vector-png-image_1527664.jpg',
         },
     });
 };
