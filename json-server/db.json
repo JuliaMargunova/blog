@@ -609,6 +609,10 @@
       "roles": [
         "ADMIN"
       ],
+      "features": {
+        "isArticleRatingEnabled": true,
+        "isCounterEnabled": true
+      },
       "avatar": "https://media.licdn.com/dms/image/D4D03AQE_6lePj8MqQw/profile-displayphoto-shrink_800_800/0/1678708691925?e=2147483647&v=beta&t=wvSz9s7qutzmi-4F69QWoPVLhgxLBeVS6AJAqCB1JuM"
     },
     {
@@ -618,6 +622,10 @@
       "roles": [
         "USER"
       ],
+      "features": {
+        "isArticleRatingEnabled": false,
+        "isCounterEnabled": true
+      },
       "avatar": "https://png.pngtree.com/png-vector/20190629/ourlarge/pngtree-business-people-avatar-icon-user-profile-free-vector-png-image_1527664.jpg"
     },
     {
@@ -627,6 +635,10 @@
       "roles": [
         "MANAGER"
       ],
+      "features": {
+        "isArticleRatingEnabled": false,
+        "isCounterEnabled": false
+      },
       "avatar": "https://png.pngtree.com/png-vector/20190629/ourlarge/pngtree-business-people-avatar-icon-user-profile-free-vector-png-image_1527664.jpg"
     },
     {
@@ -636,6 +648,10 @@
       "roles": [
         "ADMIN"
       ],
+      "features": {
+        "isArticleRatingEnabled": true,
+        "isCounterEnabled": true
+      },
       "avatar": "https://media.licdn.com/dms/image/D4D03AQE_6lePj8MqQw/profile-displayphoto-shrink_800_800/0/1678708691925?e=2147483647&v=beta&t=wvSz9s7qutzmi-4F69QWoPVLhgxLBeVS6AJAqCB1JuM"
     }
   ],
