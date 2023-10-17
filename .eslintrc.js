@@ -59,6 +59,7 @@ module.exports = {
                     'gap',
                     'justify',
                     'border',
+                    'feature',
                 ],
             },
         ],
