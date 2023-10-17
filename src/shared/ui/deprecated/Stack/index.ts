@@ -1,2 +1,2 @@
-export { HStack } from 'src/shared/ui/deprecated/Stack/HStack/HStack';
-export { VStack } from 'src/shared/ui/deprecated/Stack/VStack/VStack';
+export { HStack } from './HStack/HStack';
+export { VStack } from './VStack/VStack';

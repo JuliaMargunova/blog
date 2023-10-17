@@ -1,1 +1,1 @@
-export * from 'src/shared/ui/deprecated/Code/Code';
+export * from './Code';

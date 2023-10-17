@@ -1,1 +1,1 @@
-export * from 'src/shared/ui/deprecated/Icon/Icon';
+export * from './Icon';

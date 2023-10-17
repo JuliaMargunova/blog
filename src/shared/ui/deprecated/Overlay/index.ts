@@ -1,1 +1,1 @@
-export * from 'src/shared/ui/deprecated/Overlay/Overlay';
+export * from './Overlay';

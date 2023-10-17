@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
-import { Button, ButtonTheme } from 'src/shared/ui/deprecated/Button';
-import cls from 'src/shared/ui/deprecated/Code/Code.module.scss';
+import { Button, ButtonTheme } from '../Button';
+import cls from './Code.module.scss';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import CopyIcon from '@/shared/assets/icons/copy-20-20.svg';
 

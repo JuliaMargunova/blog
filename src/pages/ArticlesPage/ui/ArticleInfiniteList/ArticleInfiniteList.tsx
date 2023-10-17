@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
+import { Text } from '@/shared/ui/deprecated/Text';
 import { ArticleList } from '@/entities/Article';
 import { getArticles } from '../../model/slices/articlesPageSlice';
 import {
@@ -9,7 +10,6 @@ import {
     getArticlesPageView,
 } from '../../model/selectors/articlesPageSelectors';
 import { useAppDispatch } from '@/shared/lib/hooks/useAppDispatch/useAppDispatch';
-import { Text } from 'src/shared/ui/deprecated/Text';
 
 interface ArticleInfiniteListProps {
     className?: string;

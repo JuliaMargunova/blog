@@ -1,1 +1,1 @@
-export * from 'src/shared/ui/deprecated/Card/Card';
+export * from './Card';

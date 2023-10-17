@@ -1,1 +1,1 @@
-export * from 'src/shared/ui/deprecated/Text/Text';
+export * from './Text';

@@ -5,7 +5,7 @@ import React, {
     useRef,
     useState,
 } from 'react';
-import cls from 'src/shared/ui/deprecated/Input/Input.module.scss';
+import cls from './Input.module.scss';
 import { classNames, Mods } from '@/shared/lib/classNames/classNames';
 
 type HTMLInputProps = Omit<

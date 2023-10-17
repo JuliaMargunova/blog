@@ -1,7 +1,7 @@
 import React, { memo, ReactNode, useCallback, useEffect } from 'react';
-import { Overlay } from 'src/shared/ui/deprecated/Overlay/Overlay';
-import cls from 'src/shared/ui/deprecated/Drawer/Drawer.module.scss';
-import { Portal } from 'src/shared/ui/deprecated/Portal/Portal';
+import { Overlay } from '../Overlay/Overlay';
+import cls from './Drawer.module.scss';
+import { Portal } from '../Portal/Portal';
 import {
     AnimationProvider,
     useAnimationLibs,
