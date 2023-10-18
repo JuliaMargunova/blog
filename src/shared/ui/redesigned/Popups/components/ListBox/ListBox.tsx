@@ -1,12 +1,12 @@
 import { Fragment, ReactNode } from 'react';
 import { Listbox as HListBox } from '@headlessui/react';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { DropdownDirection } from '@/shared/types/ui';
 import { HStack } from '../../../../redesigned/Stack';
+import { Button } from '../../../Button/Button';
 import cls from './ListBox.module.scss';
 import { mapDirectionClass } from '../../styles/consts';
 import popupCls from '../../styles/popup.module.scss';
-import { Button } from '../../../Button/Button';
-import { DropdownDirection } from '@/shared/types/ui';
-import { classNames } from '@/shared/lib/classNames/classNames';
 
 export interface ListBoxItem {
     value: string;
@@ -25,10 +25,6 @@ interface ListBoxProps {
     label?: string;
 }
 
-/**
- * Устарел, используем новые компоненты из папки redesigned
- * @deprecated
- */
 export function ListBox(props: ListBoxProps) {
     const {
         className,
@@ -41,7 +37,7 @@ export function ListBox(props: ListBoxProps) {
         label,
     } = props;
 
-    const optionsClasses = [mapDirectionClass[direction]];
+    const optionsClasses = [mapDirectionClass[direction], popupCls.menu];
 
     return (
         <HStack gap="4">
