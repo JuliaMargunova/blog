@@ -60,6 +60,8 @@ module.exports = {
                     'justify',
                     'border',
                     'feature',
+                    'color',
+                    'variant',
                 ],
             },
         ],
