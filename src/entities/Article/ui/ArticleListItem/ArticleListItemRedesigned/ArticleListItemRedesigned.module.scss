@@ -1,4 +1,3 @@
-
 .SMALL {
     .card {
         width: 240px;
@@ -17,13 +16,17 @@
     }
 
     .info {
-        padding: 8px 8px 16px 8px;
+        padding: 8px 8px 16px;
         height: 100%;
     }
 
     .footer {
         height: 100%;
         justify-content: flex-end;
+    }
+
+    .avatar {
+        margin-left: 8px;
     }
 }
 
