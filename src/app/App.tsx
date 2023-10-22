@@ -18,7 +18,7 @@ function App() {
 
     useEffect(() => {
         dispatch(initAuthData());
-    }, [dispatch]);
+    }, [dispatch, inited]);
 
     if (!inited) {
         return <PageLoader />;
