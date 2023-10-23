@@ -644,7 +644,7 @@
         "isFirstVisit": true,
         "settingsPageHasBeenOpen": false,
         "isArticlesPageWasOpened": true,
-        "theme": "app_green_theme"
+        "theme": "app_dark_theme"
       },
       "avatar": "https://png.pngtree.com/png-vector/20190629/ourlarge/pngtree-business-people-avatar-icon-user-profile-free-vector-png-image_1527664.jpg"
     },
@@ -700,7 +700,7 @@
       "first": "Valery",
       "lastname": "Margunov",
       "age": 32,
-      "currency": "BIN",
+      "currency": "RUB",
       "city": "Minsk",
       "username": "lider112",
       "avatar": "https://png.pngtree.com/png-vector/20190629/ourlarge/pngtree-business-people-avatar-icon-user-profile-free-vector-png-image_1527664.jpg",
