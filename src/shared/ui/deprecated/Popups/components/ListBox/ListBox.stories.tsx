@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { ListBox } from 'src/shared/ui/deprecated/Popups/components/ListBox/ListBox';
+import { ListBox } from './ListBox';
 
 export default {
     title: 'shared/ListBox',

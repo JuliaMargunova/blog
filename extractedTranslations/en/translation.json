@@ -8,11 +8,15 @@
     }
   },
   "PROFILE PAGE": "PROFILE PAGE",
+  "Ulbi TV App": "",
   "decrement": "decrement",
   "increment": "increment",
   "throw error": "throw error",
   "{{count}} просмотров": "{{count}} просмотров",
+  "{{count}} просмотров_one": "{{count}} view",
+  "{{count}} просмотров_other": "{{count}} views",
   "{{count}} просмотров_plural": "",
+  "{{count}} просмотров_zero": "{{count}} views",
   "Админ панель": "Админ панель",
   "Админка": "Админка",
   "Айти": "Айти",
@@ -97,8 +101,5 @@
   "названию": "названию",
   "по": "по",
   "просмотрам": "просмотрам",
-  "убыванию": "убыванию",
-  "{{count}} просмотров_zero": "{{count}} views",
-  "{{count}} просмотров_one": "{{count}} view",
-  "{{count}} просмотров_other": "{{count}} views"
+  "убыванию": "убыванию"
 }
